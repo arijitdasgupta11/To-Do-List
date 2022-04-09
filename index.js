@@ -9,8 +9,7 @@ window.addEventListener('load', () => {
 		const task = input.value;
                 
                 if(!task){
-                alert('Please add your task & move on!');
-                return ;
+                alert('Please add your task & move on!')
 }
 else{
 		const task_el = document.createElement('div');
