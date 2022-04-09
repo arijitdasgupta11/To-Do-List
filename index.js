@@ -7,6 +7,10 @@ window.addEventListener('load', () => {
 		e.preventDefault();
 
 		const task = input.value;
+                
+                if(!task){
+                alert('Please add your task & move on!')
+}
 
 		const task_el = document.createElement('div');
 		task_el.classList.add('task');
