@@ -11,7 +11,7 @@ window.addEventListener('load', () => {
                 if(!task){
                 alert('Please add your task & move on!')
 }
-
+else{
 		const task_el = document.createElement('div');
 		task_el.classList.add('task');
 
@@ -64,3 +64,4 @@ window.addEventListener('load', () => {
 		});
 	});
 });
+}
